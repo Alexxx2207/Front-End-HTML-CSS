@@ -13,7 +13,7 @@ nav {
 }
 
 li {
-    font-style: none;
+    list-style: none;
     line-height: 25px;
     margin-left: -15px;
 }
