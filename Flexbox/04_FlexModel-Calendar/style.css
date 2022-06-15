@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+div.container, section {
+    display: flex;
+    /* align-items: center; The exercises require it but it breaks the style  */
+}
+
+div.container {
+    flex-direction: row;
+    max-width: 65vw;
+    height: 60vh;
+}
+
+section.week {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+section.notes {
+    flex-direction: column;
+    width: 15vw;
+}
+
+span {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.week-day-type {
+    width: 100%;
+}
+
+.workday {
+    width: 20%;
+}
+
+.weekend-day {
+    width: 50%;
+}
+
+.note-item {
+    height: 50%;
+}

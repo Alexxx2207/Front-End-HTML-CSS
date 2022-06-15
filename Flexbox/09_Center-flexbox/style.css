@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.card {
+    background-color: rgb(255,255,255);
+    padding: 10px;
+}

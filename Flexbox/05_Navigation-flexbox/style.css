@@ -1,0 +1,26 @@
+header {
+    border-bottom: 2px solid rgb(0,0,0);
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    flex-basis: 30%;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
+    align-self: center;
+    justify-content: space-around;
+}
+
+a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+.site-title{
+    flex-basis: 70%;
+}
