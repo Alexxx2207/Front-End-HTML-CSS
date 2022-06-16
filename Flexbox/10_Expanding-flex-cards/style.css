@@ -1,16 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: rgb(238, 238, 238);
     display: flex;
-    height: 100vh;
-}
-
-div.container {
-    display: flex;
     align-items: center;
+    height: 100vh;
+    max-width: 70%;
     justify-content: center;
 }
 
-img {
+section.container, ul, li {
+    display: flex;
+    flex-flow: row nowrap;
+    overflow: hidden;
+}
+
+ul {
+    padding: 0;
+    justify-content: center;
+}
+
+li {
+    flex: 1 1 20%;
+    list-style-type: none;
+    margin: 10px;
     border-radius: 10px;
-    width: 20%;
+}
+
+.normal {
+    flex: 1 1 100%;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
 }
