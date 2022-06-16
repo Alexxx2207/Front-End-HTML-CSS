@@ -1,0 +1,34 @@
+/* TODO: Add the responsive styles here */
+@media(max-width: 600px) {
+
+    .tm-header-inner {
+        padding: 40px 20px;
+    }
+
+    .tm-nav {
+        width: 100%;
+    }
+
+    .tm-nav-li {
+        padding-right: 0px;
+    }
+
+    .tm-gallery-page {
+        margin : 0px;
+        justify-content: center;
+    }
+
+    .tm-gallery {
+        margin : 50px;
+    }
+    
+    .tm-section-title {
+        margin: 0px 40px 40px 40px;
+        width: 100%;
+    }
+
+    .tm-cta-section{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
