@@ -1,0 +1,37 @@
+@media all and (max-width: 900px) {
+    body {
+        max-width: 800px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .menu {
+        display: block;
+        align-self: center;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .sub-site-title {
+        font-size: 10px;
+    }
+
+    .our-team-list-li,
+    .testimonials-list-li {
+        flex: 0 1 50%;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .site-map ul:nth-child(1) {
+        margin-right: 80px;
+    }
+
+    footer article{
+        margin-bottom: 2px;
+    }
+}

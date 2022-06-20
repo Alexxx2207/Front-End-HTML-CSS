@@ -1,0 +1,26 @@
+@media (max-width: 500px) {
+    body header h1 {
+        display: block;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    nav ul {
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    nav ul li {
+        display: block;
+        padding: 10px 0px;
+    }
+
+    nav a {
+        display: block;
+        padding-left: 5px;
+    }
+}

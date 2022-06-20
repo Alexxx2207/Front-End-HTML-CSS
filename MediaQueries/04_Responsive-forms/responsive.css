@@ -1,0 +1,8 @@
+@media (max-width: 1279px) {
+    form p {
+        display: block;
+    }
+    form div {
+        display: block;
+    }
+}
