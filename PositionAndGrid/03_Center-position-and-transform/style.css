@@ -4,6 +4,8 @@ html, body {
     width: 100%;
     margin: 0px;
     background-color: rgb(238, 238, 238);
+    font-family: Helvetica, sans-serif;
+
 }
 
 section.card {
@@ -13,7 +15,7 @@ section.card {
     transform: translate(-50%, -50%);
     background-color: rgb(255, 255, 255);
     border-radius: 6px;
-    width: 40%;
+    width: 34%;
 }
 
 img {
@@ -38,6 +40,6 @@ a {
     color: white;
     border-radius: 6px;
     float: right;
-    padding: 0.5em;
-    margin-bottom: 20px;
+    padding: 0.5em 1em;
+    margin: 20px 0px;
 }
