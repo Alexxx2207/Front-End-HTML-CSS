@@ -1,0 +1,67 @@
+.flex {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f6f8f9;
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5rem 0rem 5rem 5rem;
+    flex-basis: 35%;
+}
+
+h1, h6 {
+    font-family: Helvetica, sans-serif;
+    margin: 0px;
+}
+
+h6 {
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+p {
+    margin-bottom: 2rem;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5rem;
+    color: #6e7982;
+    width: 80%;
+}
+
+button {
+    font-family: Helvetica;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    font-weight: 600;
+    padding: 0.8rem 1.2rem;
+}
+
+#contact {
+    background-color: #786eff;
+    color: white;
+    text-decoration: none;
+    border: none;
+    margin-right: 0.6rem;
+}
+
+#learn {
+    background-color: white;
+    color: #1f2b3a;
+    text-decoration: none;
+    border: 1.5px solid #1f2b3a;
+}
+
+#imageDiv {
+    display: flex;
+    align-items: flex-end;
+}
+
+img {
+    margin-left: 2rem;
+    width: 65%;
+}
