@@ -1,0 +1,198 @@
+@import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
+
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.flex {
+    display: flex;
+}
+
+nav {
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+nav .navText * {
+    display: inline-block;
+}
+
+nav h1 {
+    font-size: 36px;
+    margin: 0.5rem;
+}
+
+nav h5 {
+    font-weight: 300;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 0.7rem;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 0px;
+    padding-right: 2rem;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    background-color: #ececec;
+    color: black;
+    padding: 1.2rem 1.3rem;
+    letter-spacing: 1px;
+    margin-left: 2px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+nav ul li:nth-of-type(1) {
+    background-color: #e24e2a;
+    color: white;
+}
+
+
+.vl {
+    height: 2.6rem;
+    border-left: 1px solid black;
+    margin: 1.5rem 0.8rem 0rem 0.3rem;
+    position: relative;
+    top: 0.4rem;
+}
+
+
+.banner {
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.infoSection {
+    position: absolute;
+    top: 110%;
+}
+
+.redText {
+    background-color: #e24e2a;
+    color: white;
+    text-align: center;
+    padding: 2.5rem;
+    justify-content: center;
+
+}
+
+.redText p {
+    width: 90%;
+    line-height: 1.8rem;
+}
+
+.labels {
+    background-color: #383838;
+    text-align: center;
+    padding: 4rem 0rem;
+    justify-content: space-evenly;
+    width: 10 0%;
+}
+
+
+.labels h4 {
+    margin: 1rem;
+    color: white;
+    font-weight: 400;
+}
+
+.labels hr {
+    width: 100%;
+    border: 0.1px solid #686969;
+}
+
+.labels div.label {
+    width: 22%;
+    flex-direction: column;
+}
+
+.labels p {
+    color: #686969;
+    font-size: 15px;
+}
+
+.label .icon {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.label i {
+    color: white;
+    padding: 1rem;
+    background-color: #e24e2a;
+    font-size: 3.7rem;
+}
+
+.whitePart {
+    text-align: center;
+    padding: 4rem 0rem;
+}
+
+.whitePart h1 {
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.whitePart h4 {
+    margin: 0px;
+    margin-top: 0.5rem;
+    color: #a4a5a7;
+    font-weight: 500;
+}
+
+.whitePart button {
+    color: white;
+    background-color: #1b9772;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    border: none;
+    margin-top: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.labels h2 {
+    font-size: 20px;
+    padding-bottom: 1rem;
+    margin: 1rem;
+    color: white;
+    font-weight: 400;
+}
+
+footer {
+    text-align: center;
+    background-color: #1b9772;
+    padding-top: 3rem;
+}
+
+footer p {
+    color: #56af8d;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+}
+
+footer span {
+    color: #99cab4;
+    font-weight: 600;
+}
