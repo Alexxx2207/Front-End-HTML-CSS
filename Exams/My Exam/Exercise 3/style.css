@@ -1,0 +1,230 @@
+@import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    margin: 0px 5rem;
+}
+
+.flex {
+    display: flex;
+}
+
+#first {
+    position: relative;
+    color: white;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    top: -200px;
+}
+
+#gradient {
+    background: linear-gradient(rgb(10, 10, 10, 0.7), rgb(100, 100, 100, 0));
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    top: 0px;
+}
+
+nav {
+    justify-content: space-between;
+    margin: 1rem 10rem;
+    font-size: 18px;
+}
+
+nav h1 {
+    margin: 0px;
+    font-weight: 400;
+}
+
+header {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    align-items: center;
+}
+
+#headerContent {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    text-align: center;
+    text-shadow: 1px 2px black;
+
+}
+
+#headerContent h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+#headerContent p {
+    font-size: 20px;
+    width: 35%;
+}
+
+#headerContent button {
+    text-decoration: none;
+    border: none;
+    color: white;
+}
+
+#headerContent #buy {
+    background-color: #00d08e;
+    border-radius: 5px;
+    padding: 0.8rem 1.2rem;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 4rem 0rem;
+}
+
+#headerContent #buy:hover {
+    border: 3px solid white;
+    background-color: transparent;
+}
+
+#headerContent #see {
+    background-color: transparent;
+    font-size: 18px;
+}
+
+#headerContent #see #seetext {
+    text-shadow: 1px 1px black;
+    display: inline-block;
+}
+
+#headerContent .iconDiv {
+    display: inline-block;
+    text-align: center;
+    padding: 2px 4px;
+    border-radius: 30px;
+    background-color: white;
+    margin-left: 10px;
+}
+
+#headerContent #see i {
+    text-align: center;
+    color: black;
+}
+
+#second {
+    position: relative;
+}
+
+#second .row {
+    width: 100%;
+}
+
+#row1Image {
+    width: 100%;
+}
+
+#second .row #row1Text {
+    width: 100%;
+    background-color: white;
+}
+
+#second #row1Text {
+    padding: 0px 0px 0px 50px;
+}
+
+#second #row1Text h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#second #row1Text p {
+    margin-top: 0px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#second #row1Text li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.divTick {
+    display: inline-block;
+    background-color: #00d08e;
+    color: white;
+    padding: 1px 4px;
+    border-radius: 40px;
+}
+
+.divTick i {
+    font-size: 14px;
+}
+
+#row2Text { 
+    width: 50%;
+    text-align: center;
+}
+
+#row2Text .imageRow img {
+    width: 100%;
+}
+
+#labels {
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.label {
+    flex-direction: column;
+    align-items: center;
+    width: 27%;
+    margin: 10px 15px;
+}
+
+.label img {
+    width: 50%;
+}
+
+.labelText {
+    color: #00d08e;
+    font-size: 18px;
+}
+
+#third {
+    position: relative;
+    background-color: #b2f1dd;
+    padding: 0.5rem 3rem;
+    text-align: center;
+}
+
+#third #title {
+    font-size: 30px;
+}
+
+.infos {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.labelInfo {
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.labelInfo h1 {
+    font-size: 20px;
+    margin: 0px;
+}
+
+#emailUs span {
+    font-weight: 700;
+}

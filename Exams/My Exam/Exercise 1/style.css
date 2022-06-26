@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
+
+
+/* font-family: 'Courgette', cursive; */
+
+html {
+    font-family: 'Courgette', cursive;
+    background-color: #f5f5f5;
+}
+
+.flex {
+    display: flex;
+}
+
+#page {
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    flex-direction: column;
+    text-align: center;
+    margin: 2.5rem 0rem;
+}
+
+header h1,
+header h2 {
+    margin: 0px;
+}
+
+header h1 {
+    font-weight: 500;
+    letter-spacing: 2.5px;
+    font-size: 60px;
+}
+
+header h2 {
+    text-align: right;
+    color: #cb2027;
+    margin-top: 0.3rem;
+    position: relative;
+    right: -15px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+section.flex {
+    justify-content: space-around;
+}
+
+.homesContainer {
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    width: 30%;
+    position: relative;
+}
+
+.homesContainer img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+}
+
+.homesContainer .text {
+    text-align: center;
+    padding: 1.2rem;
+}
+
+.homesContainer .text h1 {
+     margin-top: 3px;
+     margin-bottom: 15px;
+     font-size: 30px;
+}
+
+.homesContainer .text hr{
+    border-top: 1.8px solid #d23f45;
+}
+
+.homesContainer .text p {
+    line-height: 1.5rem;
+    font-size: 18px;
+    margin-bottom: 3rem;
+}
+
+.homesContainer .text button {
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    font-family: 'Courgette', cursive;
+    font-size: 18px;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    bottom: 1rem;
+}
+
+.homesContainer .text i {
+    background-color: #cb2027;
+    color: white;
+    padding: 2px;
+    border-radius: 50px;
+    font-weight: 800;
+    width: 18px;
+    margin-left: 0.4rem;
+}
